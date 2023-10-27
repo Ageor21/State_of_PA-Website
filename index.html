@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title> State of PA </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+// CODE TO SEE IF THE EMAILS MATCH
+function validate(){
+  let i1 = document.querySelector("#i1").value;
+  let i2 = document.querySelector("#i2").value;
+  if(i1 === i2){
+    alert("Values matched");
+  }else{
+    alert("Values not matching");
+}
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+
+}
+} }
+  </script>
+  </head>
+  <body class="bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="#">&nbsp;</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">&nbsp;</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Topics&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<a class="dropdown-item" href="index.html">Pennsylvania</a>
+              <a class="dropdown-item" href="page1.html">Philadelphia</a>
+              <a class="dropdown-item" href="page2.html">Pittsburg</a>
+              <a class="dropdown-item" href="page3.html">Harrisburg</a>
+            </div>
+          </li>
+          <li>
+            <a class="nav-link disabled" href="#">&nbsp;</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+</form>
+		 <aside>
+			    <p> Pennsylvania has a population of 12.96 million</p>
+			    <p>One of the original 13 colonies, Pennsylvania was established in 1681 by William Penn.&nbsp;</p>
+            </aside>
+      </div>
+    </nav>
+    <section>
+      <div class="jumbotron text-center mt-2">
+		<header>A website for Pennsylvania lovers and all. Here you will find content about all things Pennsylvania"&nbsp;</header>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-12">
+                <h1 class="red">State of Pennsylvania</h1>
+              <p><strong>“Virtue, Liberty, and Independence.” </strong></p>
+			<a href="https://www.youtube.com/watch?v=kve9NLzqYss" target="_blank">Video on places to visit in PA</a>
+            <img src="images/shutterstock_1291025203-scaled.jpg" width="1126" height="710" alt="City of Philadelphia"/>            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Cities in Pennsylvania</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li>
+<div class="media-body"><img src="Philadelphia-foreground-Schuylkill-River.jpg" width="350" height="250" alt="image if philly"/>
+              <h5 class="mt-0 mb-1"><a href="page1.html">Philadelphia</a></h5>
+              Philadelphia, Pennsylvania’s largest city, is notable for its rich history, on display at the Liberty Bell, Independence Hall
+            </div>
+</li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+<div class="media-body"><img src="download.jpg" width="350" height="250" alt="image of pittsburg"/>
+<h5 class="mt-0 mb-1"><a href="page2.html">Pittsburgh</a></h5>
+                Pittsburgh is a city in western Pennsylvania at the junction of 3 rivers. Its Gilded Age sites, including the Carnegie Museum of Natural History,
+              </div>
+</li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+                <div class="media-body"><img src="trans1-scaled.jpg" width="350" height="200" alt="image of harrisburg"/>
+                  <h5 class="mt-0 mb-1"><a href="page3.html">Harrisburg</a></h5>
+                  Harrisburg, the state capital of Pennsylvania, sits on the Susquehanna River. The National Civil War Museum illustrates both sides of the conflict via interactive exhibits and re-enactments </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <ul class="list-unstyled">
+              <li class="media">
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12"> </div>
+        </div>
+      </div>
+    </section>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+<div class="col-md-4 col-xl-12">
+        <h3 class="text-center">Form</h3>
+            <form>
+              <div class="form-group col-xl-11">
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">First Name&nbsp;</label>
+                  <input type="form" class="form-control" id="exampleInputFirst1" placeholder="First Name">
+</div>
+				  <div class="form-group">
+                  <label for="exampleInputEmail1">Last Name&nbsp;</label>
+                  <input type="form" class="form-control" id="exampleInputLastName1" placeholder="Last Name">
+</div>
+                <div class="form-group">
+                </div>
+				  <div class="form-group">
+                  <label for="eAskaQuestion">Response&nbsp;</label>
+                  <input type="form" class="form-control" id="response" placeholder="Message">
+</div>
+				  <label for="email">Email Address  </label> 
+                <input type="text" id="i1" placeholder="Email">
+                  <input type="text" id="i2" placeholder="Confirm Email">
+				  <button onclick="validate()" >Submit</button>
+</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10">
+            <p><em><a href="https://en.wikipedia.org/wiki/Pennsylvania">More infomation about Pennsylvania</a></em></p>
+            <p><a href="https://uncoveringpa.com/pennsylvania-facts">&nbsp;Facts of Pennsylvania</a></p>
+          </div>
+          <table width="200" border="1">
+		<caption>Pennsylvania areas abbreviations</caption>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="page1.html">RS</a><a>&nbsp;</a></th>
+<td><strong><a href="page2.html">MW</a>&nbsp;</strong></td>
+                <td><strong><a href="page3.html">AH</a></strong>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="index1.html">&nbsp;</a><a href="page1.html">FT</a></th>
+                <td><strong><a href="page2.html">EL</a></strong>&nbsp;</td>
+                <td><strong>&nbsp;<a href="page3.html">DT</a></strong></td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="index1.html">&nbsp;</a><a href="page1.html">CC</a></th>
+<td><strong><a href="page2.html">SD</a></strong>&nbsp;</td>
+                <td><strong>&nbsp;<a href="page3.html">MT</a></strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
